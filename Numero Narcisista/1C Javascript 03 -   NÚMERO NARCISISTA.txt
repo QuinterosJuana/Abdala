@@ -1,2 +1,0 @@
-Número de n dígitos que resulta ser igual a la suma de las potencias de orden n de sus dígitos.  Por ejemplo: 153 es un número narcisista.
- Hacer un programa que muestre mediante una función llamada function EsNarciso ( n) muestre el listado de los números narcisos hasta el número ingresado
