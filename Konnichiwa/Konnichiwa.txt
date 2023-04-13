@@ -1,0 +1,42 @@
+Konnichi wa, OIE-san
+
+¿Qui ´en no est  ´a intentando aprender japon ´es hoy en d ´ia? Para aquellos que, pese a todo nue-
+stro esfuerzo, no lo conseguimos, siempre nos queda el recurso de aprender a “japonizar”
+
+nuestro nombre. Me explico: el lenguaje tiene 3 alfabetos distintos: el kanji, el hiragana y el
+katakana (sin incluir el “romaji”, que es el nombre que dan a nuestro alfabeto latino). El kanji
+
+es un alfabeto ideogr  ´afico: hay varios miles de s ´imbolos, y cada s ´imbolo representa un con-
+cepto. Como los s ´imbolos no representan fonemas como en nuestro alfabeto, no podemos
+
+utilizarlos f  ´acilmente para escribir nombres extranjeros en japon ´es. Los otros dos alfabetos,
+el hiragana y el katakana, son alfabetos sil ´abicos: cada s ´imbolo representa una s ´ilaba. Por
+simplicidad, consideraremos que una “s ´ilaba japonesa” est  ´a formada por una  ´unica vocal (a,
+e, i, o, u) precedida, opcionalmente, por una consonante (cualquiera de las letras restantes
+de nuestro alfabeto, incluyendo la ‘h’ o la ‘y’). Consideraremos una  ´unica excepci  ´on: los
+japoneses aceptan que ‘n’ es, por ella misma, una s ´ilaba.
+Las s ´ilabas japonesas son tan limitadas que no podemos escribir la mayor ´ia de nuestros
+nombres: Pedro tiene una s ´ilaba “dro” que no puede escribirse en japon ´es, “Guti ´errez”
+tiene la “rr” y la “z” final, etc. Para “japonizar” un nombre seguiremos el proceso siguiente:
+siempre que encontremos una consonante (distinta de la ‘n’) que no vaya seguida de vocal,
+insertaremos una vocal ‘u’ a continuaci  ´on. (En japon ´es la vocal ‘u’ hace el papel de vocal
+muda.)
+Por ejemplo: siguiendo las normas descritas, “Brat Pitt” se japoniza en “Buratu Pitutu”,
+“Pedro Gutierrez” (omitimos el acento) en “Peduro Gutierurezu”, y “Joe McEnroe” en “Joe
+MucEnroe”. “Angelina Jolie”, en cambio, se queda como est  ´a.
+Entrada
+La entrada consiste en una l ´inea con un n  ´umero n entre 1 y 1000, seguido de n l ´ineas,
+cada una de las cuales contiene un nombre. Un nombre es una o m  ´as palabras formadas
+
+ ´unicamente por letras del alfabeto ingl ´es (min  ´usculas y may  ´usculas, sin acentuar). Las pal-
+abras est  ´an separadas entre ellas por un espacio. Una palabra tiene como mucho 40 letras, y
+
+un nombre nunca tendr  ´a m  ´as de 10 palabras.
+Vuestro programa debe resolver 3 entradas como las descritas en un tiempo de un segundo.
+Salida
+La salida consiste en n l ´ineas siguiendo el formato “Konnichi wa, NOMuBuRE-san”, donde
+NOMuBuRE es la japonizaci  ´on del NOMBRE le ´ido. Hay que respetar la capitalizaci  ´on del
+nombre le ´ido, pero las letras ‘u’ que se a  ~nadan deben ser siempre min  ´usculas.
+Pista
+Por favor, escribid la salida correctamente (“Konnichi” empieza con may  ´uscula, detr  ´as de la
+coma hay un espacio, etc.), o el juez rechazar  ´a vuestra soluci  ´on.
