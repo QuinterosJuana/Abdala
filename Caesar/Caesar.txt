@@ -1,0 +1,24 @@
+Uno de los m ´etodos m ´as antiguos para codificar mensajes es el conocido como cifrado Cesar. Su
+funcionamiento es simple: cada una de las letras del mensaje original es sustituida por otra letra que se
+encuentra un n ´umero fijo de posiciones m ´as adelante en el alfabeto.
+As ´i, si utilizamos un desplazamiento de 2, las apariciones de la letra ‘a’ se sustituyen por la ‘c’,
+todas las apariciones de la ‘b’ por ‘d’, etc. El m ´etodo tradicional comienza de nuevo al llegar al final del
+alfabeto, de forma que, con el desplazamiento de 2, la ‘y’ se sustituye por la ‘a’ y la ‘z’ se sustituye por
+la ‘b’.
+Los desplazamientos tambi ´en pueden ser negativos; si utilizamos un desplazamiento de -1, la ‘E’ se
+convertir ´a en ‘D’, mientras que la ‘a’ pasar ´a a ser ‘z’.
+Nuestro cifrado Cesar no codifica los caracteres que no sean letras anglosajonas. As ´i, por ejemplo,
+los espacios o los s ´imbolos de puntuaci ´on no sufrir ´an cambio alguno.
+Entrada
+La entrada est ´a formada por un n ´umero indeterminado de casos de prueba.
+Cada caso de prueba consiste en una  ´unica l ´inea cuyo primer car ´acter es el c ´odigo de la letra ‘p’,
+
+seguido de un mensaje codificado con el m ´etodo Cesar descrito antes utilizando el desplazamiento ade-
+cuado para que la letra ‘p’ se codifique con ese primer car ´acter.
+
+Los casos de prueba terminan con un mensaje codificado que, una vez traducido, contiene exactamente
+la cadena “FIN”. Cuando se lee este mensaje codificado el programa debe terminar sin generar ninguna
+otra salida m ´as.
+Salida
+Para cada caso de prueba, el programa indicar ´a el n ´umero de vocales no acentuadas que contiene el
+mensaje codificado.
