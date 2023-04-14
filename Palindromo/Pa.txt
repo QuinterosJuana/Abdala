@@ -1,0 +1,9 @@
+Entrada
+La entrada estar ´a compuesta por m ´ultiples casos de prueba. Cada caso de prueba es una  ´unica l ´inea
+con una palabra o frase de no m ´as de 100 caracteres. En ella puede haber tanto letras may ´usculas como
+min ´usculas del alfabeto ingl ´es y uno o varios espacios separando palabras (eso s ´i, las l ´ineas empezar ´an y
+terminar ´an siempre con letra, nunca con espacios). A riesgo de comprometer la ortograf ´ia y la sem ´antica,
+las palabras no contendr ´an tildes y los signos de puntuaci ´on se omiten.
+El  ´ultimo caso de prueba va seguido de una l ´inea con XXX que marca el final y no debe ser procesada.
+Salida
+Por cada caso de prueba se escribir ´a SI si la palabra o frase es pal ´indroma y NO en caso contrario.
