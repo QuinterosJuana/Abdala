@@ -1,0 +1,8 @@
+Entrada
+La entrada consta de una serie de casos de prueba. Cada uno comienza con un n ´umero, menor o igual
+que 25.000, que indica la cantidad de valores que tiene la muestra. A continuaci ´on se dan los valores de
+la muestra, todos n ´umeros enteros positivos, de los que habr ´a que calcular la mediana multiplicada por
+dos.
+La entrada terminar ´a con una serie de 0 valores.
+Salida
+Para cada caso de prueba se mostrar ´a el doble de la mediana de los valores dados.
