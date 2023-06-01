@@ -1,0 +1,11 @@
+Problema A: Distancia de Hamming
+
+La distancia de Hamming entre dos números esta definida como el número de
+posiciones en sus representaciones binarias en las que difieren. Los ceros a la izquierda
+son usados si son necesarios para que a las representaciones binarias tengan misma
+longitud.
+Por ejemplo, los números 11010 y 01100 difieren en la primera, tercera y cuarta
+posición, así que dan una distancia de Hamming de 3.
+La entrada son cadenas que contienen las representaciones binarias de ciertos
+números (cada par de números tiene la misma longitud). Debe devolver las distancias
+de Hamming de todos los pares de números dados.

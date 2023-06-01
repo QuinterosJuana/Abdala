@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript</title>
+    <script src="js/function.js"></script>
+</head>
+
+<body>
+    <script>
+        let distancia_de_hamming = 0, num = 0, num2 = 0, x = "", y = "", large = 0, dif = 0;
+        num = parseInt(prompt("Ingrese un numero"));
+        x = num.toString(2);
+        num2 = parseInt(prompt("Ingrese otro numero"));
+        y = num2.toString(2);
+
+        if (x.length > y.length) {
+            large = x.length;
+            dif = large - y.length
+            for (let i = 0; i < dif; i++) {
+                y = "0" + y;
+            }
+        } else {
+            large = y.length
+            dif = large - b.length
+            for (let i = 0; i < dif; i++) {
+                x = "0" + x;
+            }
+        }
+        document.write("Primer numero: ", x, "<br>Segundo numero: ", y, "<br>Distancia de Hamming: ", DistanciaDeHamming(x, y, large));
+    </script>
+</body>
+
+</html>
