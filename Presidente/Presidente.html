@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript</title>
+    <script src="js/function.js"></script>
+</head>
+
+<body>
+    <script>
+        let array = [], cantidad = 0, n1 = 0, n2 = 0, nums = [], input = '';
+
+        input = prompt("digite dos numeros entre 1 y 1.000.000");
+
+        nums = input.split(' ');
+        n1 = parseInt(nums[0]);
+        n2 = parseInt(nums[1]);
+
+        if (1 <= n1 && n2 <= 1000000) {
+            for (let i = n1; i <= n2; i++) {
+                array[cantidad] = i;
+                cantidad++;
+            }
+            for (let i = 0; i < cantidad; i++) {
+                if (Presidente(array[i])) {
+                    document.write(array[i], " ");
+                }
+            }
+            }else
+            {
+                document.write("Entre 1 y 1.000.000");
+            }
+    </script>
+</body>
+
+</html>
