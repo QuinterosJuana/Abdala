@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript</title>
+    <script src="js/function.js"></script>
+</head>
+
+<body>
+    <script>
+        let array = [] N = 0, b = 0;
+        N = parseInt(prompt("tamaño del vectro: "));
+        for (let i = 0; i < N; i++) {
+            array[i] = parseInt(Math.random() * 600);
+        }
+
+        array.sort(function (array, b) {
+            return array - b;
+        });
+
+        document.write("Vector:", array, "<br> Moda:", Moda(array));
+    </script>
+</body>
+
+</html>
