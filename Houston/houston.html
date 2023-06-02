@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript</title>
+    <script src="js/function.js"></script>
+</head>
+
+<body>
+    <script>
+        let num = 0, array1 = [], arry2 = [], array3 = [], houston = 0;
+
+        num = parseInt(prompt('Tamaño de los arrays.',' '));
+
+        for (let i = 0; i < num; i++) {
+
+            array1[i] = parseInt(Math.random() * 10);
+            array2[i] = parseInt(Math.random() * 10);
+        }
+        array3 = Houston(array1, array2, num);
+        
+        -----------------------------------------------
+
+        for (let i = 0; i < num; i++)
+        {
+            houston = houston + array3[i];
+        }
+
+        document.write("Primer array:" + array1 + "<br>segundo array:" + array2 + "<br>tercer array:" + array3 + "<br>El Houston es:"+ houston);
+   
+   </script>
+</body>
+
+</html>
