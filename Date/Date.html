@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/function-1"></script>
+    <script src="js/function-2"></script>
+    <script src="js/function-3"></script>
+    <script src="js/function-4"></script>
+    <title>Fechas</title>
+</head>
+<body>
+    <script>
+
+        let x /* esta variable tiene diferentes significados segun consigna
+                            a) representa los dias restantes
+                            b) representa hace cuanto somos campeones del mundo
+                            c) representa años completos
+                        */
+        let fechaActual, inicio, fin, fecha;
+
+        fechaActual = parseInt(prompt('Ingrese la fecha actual', ' '));
+
+         /*.......................................................................
+                a) cuantos dias faltan para anio nuevo
+        .......................................................................*/ 
+
+
+        x = CantidadDiasAnioNuevo(fechaActual);
+        document.write("Faltan " + x + " días para Año Nuevo.");
+
+        /*.......................................................................
+                b) cuantos dias pasaron desde que somos campeones del mundo
+        .......................................................................*/
+
+        x = CantidadDiasCatar2022(fechaActual);
+        document.write('Hace ' + x + ' días somos campeones del Mundo.');
+
+        /*.......................................................................
+                c) cantidad de años completos transcurridos entre dos fechas
+        .......................................................................*/
+
+        inicio = parseInt(prompt('Ingrese fecha de Inicio: ', ' '));
+        fin = parseInt(prompt('Ingrese fecha de Fin: ', ' '));
+
+        x = CantidadDeAniosCompletos(inicio, fin);
+
+        document.write("La cantidad de años completos transcurridos son: " + x );
+
+         /*.......................................................................
+                d) es laborable
+        .......................................................................*/
+        
+        fecha = parseInt(prompt('Ingrese una fecha: ', ' '));
+        
+        laborable = DiaLaborable(fecha);
+
+        document.write('¿Es laborable? '+laborable);
+        
+    </script>
+    
+</body>
+</html>
