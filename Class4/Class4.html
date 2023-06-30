@@ -1,0 +1,33 @@
+<!--
+    Hacer una clase llamada CPassword que siga las siguientes condiciones:
+    Que tenga los atributos longitud y contraseña . Por defecto, la longitud será de 8
+    Los métodos que implementa serán:  
+        esFuerte(): devuelve un booleano si es fuerte o no, 
+        para que sea fuerte debe tener mas de 2 mayúsculas, 
+        mas de 1 minúscula y mas de 5 números.
+    o generarPassword(): genera la contraseña con caracteres aleatorios con 
+                        la longitud de 8 (se debe contemplar  mayúsculas, 
+                        mas de 1 minúscula y mas de 5 números)
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/class.js"></script>
+    <title>Password</title>
+</head>
+<body>
+    <script>
+        let longitud, contrasena, mostrar;
+
+        mostrar = new CPassword(longitud,contresena);
+
+        document.write("La contraseña es: "+mostrar.generarPassword());
+        document.write("Esta contraseña es: "+mostrar.esFuerte());
+    </script>
+    
+</body>
+</html>
