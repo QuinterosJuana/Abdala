@@ -1,0 +1,1 @@
+Escriba un programa que imprima la información (nombre, año de ingreso, salario, dirección)   creando una clase llamada 'CEmpleado'.
