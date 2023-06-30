@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/class.js"></script>
+    <title>Rectangulo</title>
+</head>
+<body>
+    
+    <script>
+        let longitud = 0, altura = 0; 
+
+        longitud = parseInt(prompt("Ingrese la longitud del Rectangulo", " "));
+        altura = parseInt(prompt("Ingrese la altura del Rectangulo", " "));
+
+        const resultado = new CRectangulo(longitud,altura);
+
+        document.write("El area del rectangulo mide " + resultado.CalcularArea());
+        
+    </script>
+
+
+</body>
+</html>
+
