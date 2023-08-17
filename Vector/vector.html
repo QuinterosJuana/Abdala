@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Operaciones con Vectores</title>
+</head>
+<body>
+    <script>
+
+        let vectorA = [], vectorB = [], countMultiplos, suma, vectorC = [], n, promedio;
+
+        document.write("Vector A: "+ generarVectorA(vectorA, n));
+
+        promedio = calcularPromedio(vectorA, n);
+        document.write("El promedio del vector A es de " + promedio);
+
+        document.write("Vector B: "+ generarVectorB(vectorA, vectorB, n, promedio));
+
+        document.write("La cantidad de elementos que son multiplos de 2 y 3 al mismo tiempo es de " + contarMultiplos2y3(vectorB));
+
+        document.write("La suma de los elementos del vector B es de "+calcularSuma(vectorB));
+
+        document.write("Vector C: " + generarVectorC(vectorC, vectorA, n));
+
+
+    </script>
+    
+</body>
+</html>
