@@ -1,0 +1,11 @@
+La entrada contendr ́a una sucesi ́on de partidos de squash. Cada partido aparecer ́a en una l ́ınea
+distinta y ser ́a una sucesi ́on de A’s y B’s que indicar ́an que el jugador A o el jugador B gan ́o ese tanto.
+Todos los partidos terminar ́an con el car ́acter F que indica que, o bien el partido termin ́o con un ganador,
+o bien dejaron de jugar debido a que termin ́o el alquiler de la pista.
+Asume que en todos los partidos empieza sacando el jugador A.
+La entrada termina con un partido sin tantos (es decir  ́unicamente con una F), partido que no deber ́a
+ser procesado.
+Salida
+Para cada partido muestra su resultado con el formato que aparece en el ejemplo. Para cada set
+empezado aparecer ́a los puntos conseguidos por el jugador A y tras un - los puntos conseguidos por el
+jugador B. Separa el resultado de cada set con un espacio. No a ̃nadas un espacio tras el  ́ultimo set.
