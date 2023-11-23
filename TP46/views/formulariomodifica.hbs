@@ -1,0 +1,53 @@
+{{#each jugadores}}
+  <form method="post" action="/jugadores/confirmarmodifica">
+  Ingrese nuevo nombre del jugador:
+  <input type="text" name="nombre" size="10" value="{{nombre}}">
+  <br>
+  Ingrese nueva posicion de los jugadores:
+  <input type="text" name="POS" size="10" value="{{POS}}">  
+  <br>
+  Ingrese nueva edad de los jugadores:
+  <input type="text" name="edad" size="10" value="{{edad}}">  
+   <br>
+  Ingrese nueva estatura de los jugadores:
+  <input type="text" name="est" size="10" value="{{est}}">  
+  <br>
+  Ingrese nuevo peso de los jugadores:
+  <input type="text" name="P" size="10" value="{{P}}">  
+  <br>
+  Ingrese nueva nacionalidad de los jugadores:
+  <input type="text" name="NAC" size="10" value="{{NAC}}">  
+  <br>
+  Ingrese las nuevas apariciones de los jugadores:
+  <input type="text" name="Ap" size="10" value="{{Ap}}">  
+  <br>
+  Ingrese las nuevas apariciones como sustituto de los jugadores:
+  <input type="text" name="SUB" size="10" value="{{SUB}}">  
+  <br>
+  Ingrese las nuevas asiestencias de los jugadores:
+  <input type="text" name="A" size="10" value="{{A}}">  
+  <br>
+  Ingrese nuevos goles totales de los jugadores:
+  <input type="text" name="GA" size="10" value="{{GA}}">  
+  <br>
+  Ingrese nuevas atajadas de los jugadores:
+  <input type="text" name="At" size="10" value="{{At}}">
+  <br>
+  Ingrese nueva faltas cometidas de los jugadores:
+  <input type="text" name="FC" size="10" value="{{FC}}">  
+  <br>  
+    Ingrese nueva faltas sufridas de los jugadores:
+  <input type="text" name="FS" size="10" value="{{FS}}">  
+  <br>  
+    Ingrese nueva tarjeta amarilla de los jugadores:
+  <input type="text" name="TA" size="10" value="{{TA}}">  
+  <br>  
+    Ingrese nuevas tarjetas rojas de los jugadores:
+  <input type="text" name="TR" size="10" value="{{TR}}">  
+  <br>  
+  
+ 
+  <input type="hidden" name="id" size="10" value="{{id}}"> 
+  <input type="submit" value="Modificar">
+  </form>
+{{/each}}  
