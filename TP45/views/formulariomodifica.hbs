@@ -1,0 +1,30 @@
+{{#each tiendas}}
+  <form method="post" action="/tiendas/confirmarmodifica">
+
+  Ingrese nuevo nombre comercial de la tienda:
+  <input type="text" name="nombre_comercial" size="10" value="{{nombre_comercial}}">
+  <br>
+  Ingrese nuevo tipo de tienda:
+  <input type="text" name="tipo" size="10" value="{{tipo}}">  
+  <br>
+  Ingrese nueva direccion de tienda:
+  <input type="text" name="direccion" size="10" value="{{direccion}}">  
+   <br>
+  Ingrese nuevo codigo postal de la tienda:
+  <input type="text" name="codpost" size="10" value="{{codpost}}">  
+  <br>
+  Ingrese nueva poblacion de la tienda:
+  <input type="text" name="poblacion" size="10" value="{{poblacion}}">  
+  <br>
+  Ingrese nueva latitud de la tienda:
+  <input type="text" name="lat" size="10" value="{{lat}}">  
+  <br>
+  Ingrese nueva longitud de la tienda:
+  <input type="text" name="lng" size="10" value="{{lng}}">  
+  <br>
+  <br>  
+  
+  <input type="hidden" name="id" size="10" value="{{id}}"> 
+  <input type="submit" value="Modificar">
+  </form>
+{{/each}}  
